@@ -1,0 +1,123 @@
+@media (max-width: 700px) {
+    main {
+        padding: 1em;
+    }
+    section {
+        padding: 0.7em;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    h1 {
+        font-size: 1.3em;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+    .projet h3 {
+        font-size: 1em;
+    }
+    footer {
+        font-size: 0.9em;
+        padding: 0.7em 0;
+    }
+}
+/* Couleur personnalisée pour le titre Accueil */
+#accueil h2 {
+    color: #1976d2;
+}
+/* Couleurs personnalisées pour les titres des sections */
+#apropos h2 {
+    color: #ff9800;
+}
+#projets h2 {
+    color: #43a047;
+}
+#contact h2 {
+    color: #e53935;
+}
+/* Feuille de style principale pour le portfolio */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff; /* Fond blanc professionnel */
+    color: #222e3a; /* Gris foncé pour le texte */
+}
+header {
+    background: #1a237e; /* Bleu foncé professionnel */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 1px 1px 2px #222e3a;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #90caf9; /* Bleu clair par défaut */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+nav ul li a[href="#apropos"] {
+    color: #ff9800; /* Orange professionnel pour À propos */
+}
+nav ul li a[href="#projets"] {
+    color: #43a047; /* Vert professionnel pour Projets */
+}
+nav ul li a[href="#contact"] {
+    color: #e53935; /* Rouge professionnel pour Contact */
+}
+nav ul li a:hover {
+    color: #1976d2;
+}
+main {
+    padding: 2em;
+}
+section {
+    margin-bottom: 2em;
+    background: #f5f7fa;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(26,35,126,0.05);
+}
+footer {
+    background: #1a237e;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background: #1976d2; /* Bleu moyen */
+    color: #fff;
+    border: none;
+    padding: 0.7em 1.5em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #1565c0;
+}
