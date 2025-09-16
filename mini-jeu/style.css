@@ -9,14 +9,30 @@ body {
 h1 {
     color: #1976d2;
 }
-input[type="number"] {
-    padding: 0.5em;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    margin-right: 1em;
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-gap: 15px;
+    justify-content: center;
+    margin: 2em auto;
+}
+.card {
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    background: #fff;
+    border: 2px solid #1976d2;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.card:disabled {
+    background: #43a047;
+    color: #fff;
+    cursor: default;
 }
 button {
-    background: #43a047;
+    background: #1976d2;
     color: #fff;
     border: none;
     padding: 0.7em 1.5em;
@@ -24,9 +40,10 @@ button {
     cursor: pointer;
     font-weight: bold;
     transition: background 0.2s;
+    margin-top: 1em;
 }
-button:hover {
-    background: #388e3c;
+button:hover:not(.card) {
+    background: #1565c0;
 }
 #result {
     margin-top: 1em;

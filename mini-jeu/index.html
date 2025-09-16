@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini-Jeu JavaScript</title>
+    <title>Jeu Mémo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Mini-Jeu : Devine le nombre</h1>
-    <p>Essayez de deviner le nombre mystère entre 1 et 100 !</p>
-    <input type="number" id="guess" min="1" max="100" placeholder="Votre proposition">
-    <button onclick="checkGuess()">Valider</button>
+    <h1>Jeu Mémo</h1>
+    <p>Retournez les cartes et retrouvez toutes les paires !</p>
+    <div id="game-board"></div>
     <p id="result"></p>
-    <script src="jeu.js"></script>
+    <button onclick="restartGame()">Recommencer</button>
+    <script src="memo.js"></script>
 </body>
 </html>
