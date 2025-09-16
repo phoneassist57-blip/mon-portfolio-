@@ -1,81 +1,92 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenue sur mon Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#apropos">À propos</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="accueil">
-            <h2>Accueil</h2>
-            <p>Bonjour, je suis MORREALE Frédéric, développeur débutant.<br><br>
-                Découvrez la section <span style="color:#ff9800;font-weight:bold;">À propos</span>, explorez mes <span style="color:#43a047;font-weight:bold;">Projets</span> ou contactez-moi via la section <span style="color:#e53935;font-weight:bold;">Contact</span> !
-            </p>
-        </section>
-        <section id="apropos">
-            <h2>À propos</h2>
-            <p>Passionné par l’univers de l’informatique et les jeux vidéo, je suis toujours curieux de découvrir de nouvelles technologies et d’apprendre en continu. J’aime explorer, comprendre comment fonctionnent les choses et relever de nouveaux défis.<br><br>
-En dehors de la programmation, je consacre beaucoup de temps à la veille technologique et à l’expérimentation de nouveaux outils. Les jeux vidéo occupent aussi une place importante dans ma vie : ils stimulent ma créativité, mon esprit d’analyse et ma capacité à résoudre des problèmes.<br><br>
-Je crois que la curiosité est une force, car elle me pousse à sortir de ma zone de confort et à progresser chaque jour. J’apprécie également le travail en équipe, le partage de connaissances et l’entraide, qui sont pour moi essentiels dans le domaine du numérique.<br><br>
-Mon objectif est de continuer à apprendre, à m’améliorer et à contribuer à des projets innovants, tout en gardant cette passion et cette envie de découvrir qui m’animent.</p>
-        </section>
-        <section id="competences">
-            <h2>Compétences</h2>
-            <ul>
-                <li><strong>Langages :</strong> HTML, CSS, JavaScript</li>
-                <li><strong>Outils :</strong> VS Code, Git, Windows</li>
-                <li><strong>Qualités :</strong> Curiosité, autonomie, esprit d’équipe</li>
-            </ul>
-        </section>
-        <section id="projets">
-            <h2>Projets</h2>
-            <div class="projet">
-                <h3>Jeu Mémo</h3>
-                <p>Un jeu de mémoire où il faut retrouver toutes les paires d’emojis. Retournez les cartes et testez votre mémoire !</p>
-                <p><strong>Technologies :</strong> HTML, CSS, JavaScript</p>
-                <a href="https://github.com/phoneassist57-blip/mon-portfolio-/tree/master/mini-jeu" target="_blank">Voir le code</a>
-            </div>
-            <div class="projet">
-                <h3>Site de veille technologique</h3>
-                <p>Un site web simple pour partager des articles et ressources sur l’actualité informatique.</p>
-                <p><strong>Technologies :</strong> HTML, CSS</p>
-                <a href="https://github.com/phoneassist57-blip/mon-portfolio-" target="_blank">Voir le code</a>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <form>
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom"><br>
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email"><br>
-                <label for="message">Message :</label><br>
-                <textarea id="message" name="message"></textarea><br>
-                <button type="submit">Envoyer</button>
-            </form>
-        </section>
-    </main>
-    <footer>
+  <header>
+    <h1>Bienvenue sur mon Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil">
+      <h2>Accueil</h2>
+      <p>Bonjour, je suis MORREALE Frédéric, développeur débutant.<br><br>
+        Découvrez la section <span style="color:#ff9800;font-weight:bold;">À propos</span>, explorez mes <span style="color:#43a047;font-weight:bold;">Projets</span> ou contactez-moi via la section <span style="color:#e53935;font-weight:bold;">Contact</span> !
+      </p>
+    </section>
+
+    <section id="apropos">
+      <h2>À propos</h2>
+      <p>Passionné par l’univers de l’informatique et les jeux vidéo, je suis toujours curieux de découvrir de nouvelles technologies et d’apprendre en continu. J’aime explorer, comprendre comment fonctionnent les choses et relever de nouveaux défis.<br><br>
+      En dehors de la programmation, je consacre beaucoup de temps à la veille technologique et à l’expérimentation de nouveaux outils. Les jeux vidéo occupent aussi une place importante dans ma vie : ils stimulent ma créativité, mon esprit d’analyse et ma capacité à résoudre des problèmes.<br><br>
+      Je crois que la curiosité est une force, car elle me pousse à sortir de ma zone de confort et à progresser chaque jour. J’apprécie également le travail en équipe, le partage de connaissances et l’entraide, qui sont pour moi essentiels dans le domaine du numérique.<br><br>
+      Mon objectif est de continuer à apprendre, à m’améliorer et à contribuer à des projets innovants, tout en gardant cette passion et cette envie de découvrir qui m’animent.</p>
+    </section>
+
+    <section id="competences">
+      <h2>Compétences</h2>
+      <ul>
+        <li><strong>Langages :</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Outils :</strong> VS Code, Git, Windows</li>
+        <li><strong>Qualités :</strong> Curiosité, autonomie, esprit d’équipe</li>
+      </ul>
+    </section>
+
+    <section id="projets">
+      <h2>Projets</h2>
+
+      <div class="projet">
+        <h3>Jeu Mémo</h3>
+        <p>Un jeu de mémoire où il faut retrouver toutes les paires d’emojis. Retournez les cartes et testez votre mémoire !</p>
+        <p><strong>Technologies :</strong> HTML, CSS, JavaScript</p>
+        <a href="mini-jeu/index.html" target="_blank" style="display:inline-block;padding:10px 15px;background-color:#43a047;color:#fff;text-decoration:none;border-radius:5px;">🎮 Jouer au jeu Mémo</a><br><br>
+        <a href="https://github.com/phoneassist57-blip/mon-portfolio-/tree/master/mini-jeu" target="_blank">📁 Voir le code sur GitHub</a>
+      </div>
+
+      <div class="projet">
+        <h3>Site de veille technologique</h3>
+        <p>Un site web simple pour partager des articles et ressources sur l’actualité informatique.</p>
+        <p><strong>Technologies :</strong> HTML, CSS</p>
+        <a href="https://github.com/phoneassist57-blip/mon-portfolio-" target="_blank">📁 Voir le code sur GitHub</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom"><br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
     <p>&copy; 2025 MORREALE Frédéric | morreale.fredric@email.com</p>
     <p>Portfolio réalisé avec passion et curiosité.</p>
-    </footer>
-    <script src="script.js"></script>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
