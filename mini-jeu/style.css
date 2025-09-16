@@ -1,22 +1,22 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f4f4f4;
+  background: #fff;
 }
 
 #game-board {
   display: grid;
   grid-template-columns: repeat(4, 80px);
-  grid-gap: 10px;
+  gap: 10px;
   justify-content: center;
   margin: 20px auto;
 }
 
 .card {
-  width: 80px;
-  height: 80px;
+  background: #eee;
+  border: 1px solid #ccc;
   font-size: 2rem;
-  background-color: #fff;
-  border: 2px solid #ccc;
+  padding: 20px;
   cursor: pointer;
+  user-select: none;
 }
